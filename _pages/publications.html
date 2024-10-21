@@ -6,12 +6,47 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 
+
+<span style="font-size:14px;margin-bottom: -1px;display: block;">*Equal Authors / <span class="highlight">Highlighted Papers</span></span>
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<div class="research-block">
+  <div class="left">
+    <span class="research-img">
+      <img src="/images/work/Overview.png">
+    </span>
+  </div>
+  <div class="right">
+    <div class="title"><b style="color:#0008fa">MotionFormer: An Improved Transformer-Based Architecture for Multi-object Tracking</b></div>
+    <div class="sub-title">*Harshit Agarwal,<b style="color:#a115a0">*Agrya Halder</b>, and Pratik Chattopadhyay, <i><br><b>8th International Conference, CVIP 2023</b></i><a target="_blank" class="tab_paper" href="https://link.springer.com/chapter/10.1007/978-3-031-58535-7_18">Paper</a></div>
+    <div class="win"><img src="/images/trophy-icon.webp" width="15px"> <span style="background-color: yellow;">Awarded Best Paper</span> in <a class="prize" href="https://iitjammu.ac.in/cvip2023/award.html">CVIP 2023</a> IIT Jammu</div>
+    <span class="research-text">
+      MotionFormer  is a novel variant of the TrackFormer model that addresses the limitations in scenarios involving short-term object occlusion, camera motion, and ambiguous detection especially in low frame-rate videos. MotionFormer, integrating an online motion prediction module based on the Kalman Filter, incorporates the important temporal information present in the videos. The addition of the Kalman Filter helps the model study the tracked pedestrians’ motion patterns and leverage them for effective association among targets across the video frames even in the case of short-term occlusions without adding much to the computational complexity of the overall framework.
+    </span>
+  </div>
+</div>
+  {% endif %}
+
+
+{% include archive-single.html %}
+<div class="research-block">
+  <div class="left">
+    <span class="research-img">
+      <img src="/images/work/fig4_transformation_latest.png">
+    </span>
+  </div>
+  <div class="right">
+    <div class="title"><b style="color:#0008fa">Gait transformation network for gait de-identification with pose
+      preservation</b></div>
+    <div class="sub-title"><b style="color:#a115a0">Agrya Halder</b>, Pratik Chattopadhyay, and Sathish Kumar, <i><br><b>Springer SIVP 2022</b></i><a target="_blank" class="tab_paper" href="https://link.springer.com/article/10.1007/s11760-022-02386-x">Paper</a></div>
+    <span class="research-text">
+     GTNet is a plausible deep learning-based solution to the gait de-identification problem. First, a set of key walking poses is determined from a large gallery set. Next, given an input sequence, a graph-based path search algorithm is employed to classify each frame of the sequence into the appropriate key pose. Next, a random frame with matched key pose chosen from the subset of the gallery sequences is considered the target frame. The dense pose features of the input and target frames are then fused using the proposed gait transformation network (GTNet).
+    </span>
+  </div>
+</div>
+<!-- New style rendering if publication categories are defined
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -30,7 +65,7 @@ author_profile: true
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% endif %}
+{% endif %} -->
 
 
 

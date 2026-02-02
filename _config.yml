@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Agrya Halder"
 title_separator          : "-"
 name                     : &name "Agrya Halder"
-description              : &description "Research Personnel at Indian Statistical Institute, Kolkata"
+description              : &description "Research Scholar at Indian Institute of Technology Madras, Chennai"
 url                      : https://agryahalder98.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "agryahalder98/agryahalder98.github.io"
@@ -24,20 +24,20 @@ author:
   avatar           : "profile.jpg"
   name             : "Agrya Halder"
   pronouns         : # example: "she/her"  
-  bio              : "Research Personnel at <a style='color: black;' href='https://miu.isical.ac.in/'>MIU, </a> <br><a style='color: black;' href='https://www.isical.ac.in/'>Indian Statistical Institute, Kolkata</a>"
-  location         : "Kolkata, India"
-  employer         : "ISI, Kolkata"
+  bio              : "Research Scholar at <a style='color: black;' href='https://coers.iitm.ac.in/peoples/'>RBG Labs, </a> <br><a style='color: black;' href='https://www.iitm.ac.in/'>IIT Madras, Chennai</a>"
+  location         : "Chennai, India"
+  employer         : "IIT Madras-Deakin University"
   uri              : # URL
   email            : "agryahalder1998@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=drCOpK4AAAAJ&hl=en&oi=ao"
+  googlescholar    : "https://scholar.google.com/citations?user=HY8lkcAAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "http://orcid.org/0000-0001-9675-8104"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Agrya-Halder?ev=hdr_xprf"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site

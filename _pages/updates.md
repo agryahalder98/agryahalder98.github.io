@@ -6,6 +6,8 @@ redirect_from:
   - /updates.html
 ---
 <ul style="margin-top:-3px" class="updates">
+	<li><span class="updates-month"><b>JUL '25</b></span> <span class="updates-content">Started Doctoral Study at <b>IIT Madras</b> under the IITM-DRA JDP!</span></li>
+	<li><span class="updates-month"><b>JUL '25</b></span> <span class="updates-content">Completed my Research Personnal Position at <b>ISI Kolkata</b>!</span></li>
 	<li><span class="updates-month"><b>MAR '24</b></span> <span class="updates-content">Started Research Personnel Position at <b>ISI Kolkata</b>!</span></li>
 	<li><span class="updates-month"><b>FEB '24</b></span> <span class="updates-content">One Paper <b>"GSSTU: Generative Spatial Self-Attention Transformer Unit for Enhanced Video Prediction"</b> accepted at <b>IEEE TNNLS</b>!</span></li>
 	<li><span class="updates-month"><b>JAN '24</b></span> <span class="updates-content">One Paper <b>BGaitR-Net: An effective neural model for occlusion reconstruction in gait sequences by exploiting the key pose information</b> accepted at <b>Expert Systems and Applications</b>!</span></li>

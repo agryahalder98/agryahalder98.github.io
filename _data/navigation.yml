@@ -17,5 +17,5 @@ main:
   - title: "CV"
     url: /files/my_cv_experience.pdf
     
-  # - title: "Contact"
-  #   url: /contact/
+  - title: "Contact"
+    url: /contact/

@@ -8,6 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+site_theme               : "default"
 title                    : "Agrya Halder"
 title_separator          : "-"
 name                     : &name "Agrya Halder"
@@ -34,7 +35,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=HY8lkcAAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/0000-0001-9675-8104"
+  orcid            : "https://orcid.org/0000-0001-9675-8104"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Agrya-Halder?ev=hdr_xprf"

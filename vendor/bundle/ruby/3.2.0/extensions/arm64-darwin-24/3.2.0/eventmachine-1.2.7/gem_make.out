@@ -1,0 +1,20 @@
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/agryahalder/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260601-57670-680fcg sitelibdir\=./.gem.20260601-57670-680fcg clean
+
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260601-57670-680fcg sitelibdir\=./.gem.20260601-57670-680fcg
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260601-57670-680fcg sitelibdir\=./.gem.20260601-57670-680fcg install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20260601-57670-680fcg
+
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260601-57670-680fcg sitelibdir\=./.gem.20260601-57670-680fcg clean

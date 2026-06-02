@@ -1,0 +1,19 @@
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/agryahalder/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260601-57670-6y0mg1 sitelibdir\=./.gem.20260601-57670-6y0mg1 clean
+
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260601-57670-6y0mg1 sitelibdir\=./.gem.20260601-57670-6y0mg1
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260601-57670-6y0mg1 sitelibdir\=./.gem.20260601-57670-6y0mg1 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260601-57670-6y0mg1/racc
+
+current directory: /Users/agryahalder/Documents/Research/agryahalder98.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260601-57670-6y0mg1 sitelibdir\=./.gem.20260601-57670-6y0mg1 clean

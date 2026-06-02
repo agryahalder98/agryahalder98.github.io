@@ -12,10 +12,78 @@ author_profile: true
 {% include base_path %}
 
 
+<style>
+/* Publication page styling */
+.publication-wrapper {
+  text-align: justify;
+}
+
+/* Publication text */
+.publication-wrapper .research-text {
+  display: block;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+
+/* Publication image container */
+/* .publication-wrapper .research-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 64 / 35;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #ffffff;
+} */
+.publication-wrapper .research-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* Publication image */
+.publication-wrapper .research-img img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;   /* use cover if you prefer cropping */
+  display: block;
+}
+
+/* Title styling */
+.publication-wrapper .title {
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+/* Author / venue styling */
+.publication-wrapper .sub-title {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Better spacing */
+.publication-wrapper .research-block {
+  margin-bottom: 60px !important;
+}
+
+</style>
+
+
+<h1 style="margin-top:20px;">Journal Articles</h1>
+<hr>
+
+<div class="publication-wrapper">
+
 <div class="research-block" style="margin-bottom:50px;">
   <div class="left">
     <span class="research-img">
-      <img src="/images/work/halder1.png"style="width:900px; height:550px;">
+      <!-- <img src="/images/work/halder1.png"style="width:900px; height:550px;"> -->
+       <img src="/images/work/halder1.png">
     </span>
   </div>
   <div class="right">
@@ -31,7 +99,8 @@ author_profile: true
 <div class="research-block" style="margin-bottom:50px;">
   <div class="left">
     <span class="research-img">
-      <img src="/images/work/Survey_page.png"style="width:900px; height:auto;">
+      <!-- <img src="/images/work/Survey_page.png"style="width:900px; height:auto;"> -->
+       <img src="/images/work/Survey_page.png">
     </span>
   </div>
   <div class="right">
@@ -48,7 +117,8 @@ author_profile: true
 <div class="research-block" style="margin-bottom:50px;">
   <div class="left">
     <span class="research-img">
-      <img src="/images/work/GSSTU_page.png"style="width:900px; height:auto;">
+      <!-- <img src="/images/work/GSSTU_page.png"style="width:900px; height:auto;"> -->
+       <img src="/images/work/GSSTU_page.png">
     </span>
   </div>
   <div class="right">
@@ -61,25 +131,6 @@ author_profile: true
   </div>
 </div>
 
-
-<div class="research-block" style="margin-bottom:50px;">
-  <div class="left">
-    <span class="research-img">
-      <img src="/images/work/MotionFormer_page.png"style="width:900px; height:auto;">
-    </span>
-  </div>
-  <div class="right">
-    <div class="title"><b style="font-size:20px;color:#0008fa">MotionFormer: An Improved Transformer-Based Architecture for Multi-object Tracking</b></div>
-    <div class="sub-title">*Harshit Agarwal,<b style="color:#a115a0">*Agrya Halder</b>, and Pratik Chattopadhyay<i><br><b>8th International Conference, CVIP 2023 </b></i>[<a target="_blank" class="tab_paper" href="https://link.springer.com/chapter/10.1007/978-3-031-58535-7_18">paper</a>]</div>
-    <div class="win"><img src="/images/trophy-icon.webp" width="15px"> <span style="background-color: yellow;">Awarded Best Paper</span> in <a class="prize" href="https://iitjammu.ac.in/cvip2023/award.html">CVIP 2023</a> IIT Jammu</div>
-    <span class="research-text">
-      MotionFormer  is a novel variant of the TrackFormer model that addresses the limitations in scenarios involving short-term object occlusion, camera motion, and ambiguous detection especially in low frame-rate videos. MotionFormer, integrating an online motion prediction module based on the Kalman Filter, incorporates the important temporal information present in the videos. The addition of the Kalman Filter helps the model study the tracked pedestrians’ motion patterns and leverage them for effective association among targets across the video frames even in the case of short-term occlusions without adding much to the computational complexity of the overall framework.
-    </span>
-  </div>
-</div>
-
-  
-<!-- {% include archive-single.html %} -->
 <div class="research-block" style="margin-bottom:50px;">
   <div class="left">
     <span class="research-img">
@@ -94,6 +145,29 @@ author_profile: true
      GTNet is a plausible deep learning-based solution to the gait de-identification problem. First, a set of key walking poses is determined from a large gallery set. Next, given an input sequence, a graph-based path search algorithm is employed to classify each frame of the sequence into the appropriate key pose. Next, a random frame with matched key pose chosen from the subset of the gallery sequences is considered the target frame. The dense pose features of the input and target frames are then fused using the proposed gait transformation network (GTNet).
     </span>
   </div>
+</div>
+
+<h1 style="margin-top:40px;">Conference Proceedings</h1>
+<hr>
+
+<div class="research-block" style="margin-bottom:50px;">
+  <div class="left">
+    <span class="research-img">
+      <!-- <img src="/images/work/MotionFormer_page.png"style="width:900px; height:auto;"> -->
+       <img src="/images/work/MotionFormer_page.png">
+    </span>
+  </div>
+  <div class="right">
+    <div class="title"><b style="font-size:20px;color:#0008fa">MotionFormer: An Improved Transformer-Based Architecture for Multi-object Tracking</b></div>
+    <div class="sub-title">*Harshit Agarwal,<b style="color:#a115a0">*Agrya Halder</b>, and Pratik Chattopadhyay<i><br><b>8th International Conference, CVIP 2023 </b></i>[<a target="_blank" class="tab_paper" href="https://link.springer.com/chapter/10.1007/978-3-031-58535-7_18">paper</a>]</div>
+    <div class="win"><img src="/images/trophy-icon.webp" width="15px"> <span style="background-color: yellow;">Awarded Best Paper</span> in <a class="prize" href="https://iitjammu.ac.in/cvip2023/award.html">CVIP 2023</a> IIT Jammu</div>
+    <span class="research-text">
+      MotionFormer  is a novel variant of the TrackFormer model that addresses the limitations in scenarios involving short-term object occlusion, camera motion, and ambiguous detection especially in low frame-rate videos. MotionFormer, integrating an online motion prediction module based on the Kalman Filter, incorporates the important temporal information present in the videos. The addition of the Kalman Filter helps the model study the tracked pedestrians’ motion patterns and leverage them for effective association among targets across the video frames even in the case of short-term occlusions without adding much to the computational complexity of the overall framework.
+    </span>
+  </div>
+</div>
+<!-- {% include archive-single.html %} -->
+
 </div>
   {% endif %}
 <!-- New style rendering if publication categories are defined

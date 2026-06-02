@@ -1,0 +1,49 @@
+[data-theme="dark"] body {
+  background: #121212;
+  color: #e6e6e6;
+}
+
+[data-theme="dark"] .page,
+[data-theme="dark"] .archive,
+[data-theme="dark"] .sidebar,
+[data-theme="dark"] .author__content,
+[data-theme="dark"] .author__urls-wrapper {
+  background: #121212;
+  color: #e6e6e6;
+}
+
+[data-theme="dark"] p,
+[data-theme="dark"] li,
+[data-theme="dark"] span,
+[data-theme="dark"] div {
+  color: #e6e6e6;
+}
+
+[data-theme="dark"] a {
+  color: #7ab7ff;
+}
+
+[data-theme="dark"] .title b {
+  color: #7ab7ff !important;
+}
+
+[data-theme="dark"] .sub-title,
+[data-theme="dark"] .research-text {
+  color: #e6e6e6 !important;
+}
+
+[data-theme="dark"] .highlight {
+  color: #111;
+  background: #fff176;
+}
+
+[data-theme="dark"] img {
+  background: transparent;
+}
+
+[data-theme="dark"] .research-img,
+[data-theme="dark"] #photo-caption {
+  background: #1e1e1e !important;
+  color: #dcdcdc !important;
+  border-color: #444 !important;
+}

@@ -6,15 +6,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<i class="ai ai-google-scholar ai-2x"></i>
-<i class="ai ai-orcid ai-2x"></i>
 
 <div hidden="hidden">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=P0DmcjPhTVQDSVsO6eLpfLlblpD7aYEdFi8dEehI1TI&cl=ffffff&w=a"></script>
 </div>
 
 <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
-<div style="aspect-ratio:16/12; overflow:hidden;">
+<div style="aspect-ratio:3/2 overflow:hidden;">
   <img id="photo-window"
       src="/images/photoes/photo1.png"
       alt="Photo gallery"
@@ -94,7 +92,7 @@ setInterval(function () {
     <source src="/files/agrya_pronunciation.mp3" type="audio/mpeg">
   </audio>
 
-  , a Research Scholar in the Rehabilitation Bioengineering Group (RBG Labs) at Indian Institute of Technology Madras, advised by Prof. <a target="_blank" href="https://ed.iitm.ac.in/~vb/rbg/Home.html">Venkatesh Balasubramanian (IITM)</a>, Prof. <a target="_blank" href="https://experts.deakin.edu.au/41903-farnad-nasirzadeh">Farnad Nasirzadeh (DRA)</a>, and Dr. <a target="_blank" href="https://experts.deakin.edu.au/50940-ahsan-habib">Dr. Ahsan Habib (DRA)</a>. My research is supported by <b>IITMadras-Deakin Research Academy</b> Joint Doctoral Program.
+  , a Research Scholar in the Rehabilitation Bioengineering Group (RBG Labs) at Indian Institute of Technology Madras, advised by Prof. <a target="_blank" href="https://ed.iitm.ac.in/~vb/rbg/Home.html">Venkatesh Balasubramanian (IITM)</a>, Prof. <a target="_blank" href="https://experts.deakin.edu.au/41903-farnad-nasirzadeh">Farnad Nasirzadeh (DRA)</a>, and Dr. <a target="_blank" href="https://experts.deakin.edu.au/50940-ahsan-habib">Ahsan Habib (DRA)</a>. My research is supported by <b>IITMadras-Deakin Research Academy</b> Joint Doctoral Program.
 </p>
 
 <p style="text-align: justify;">

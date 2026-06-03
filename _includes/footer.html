@@ -18,8 +18,22 @@
   </ul>
 </div>
 {% endif %} -->
+<!-- {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+<div class="page__footer-follow">
+  <a href="https://scholar.google.com/citations?user=HY8lkcAAAAAJ">
+    Google Scholar
+  </a> |
+  <a href="https://github.com/agryahalder98">
+    GitHub
+  </a> |
+  <a href="https://www.linkedin.com/in/agrya-halder">
+    LinkedIn
+  </a>
+</div>
+
+{% endif %} -->
 
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' %}}
+  Last updated {{ "now" | date: '%Y-%m-%d' %}}
 </div>

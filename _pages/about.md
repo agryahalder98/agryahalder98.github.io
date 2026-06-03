@@ -11,6 +11,41 @@ redirect_from:
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=P0DmcjPhTVQDSVsO6eLpfLlblpD7aYEdFi8dEehI1TI&cl=ffffff&w=a"></script>
 </div>
 
+<div style="
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+">
+
+  <blockquote style="
+      border-left: 4px solid #8B0000;
+      padding-left: 20px;
+      margin: 0;
+      font-style: italic;
+      font-size: 1.1em;
+      line-height: 1.2;
+      color: #8B0000;
+      font-family: 'Cormorant Garamond', serif;
+      text-align: justify;
+  ">
+    Every honest researcher I know admits he's just a professional amateur.
+    He's doing whatever he's doing for the first time. That makes him an amateur.
+    He has sense enough to know that he's going to have a lot of trouble,
+    so that makes him a professional.
+  </blockquote>
+
+  <div style="
+      margin-top: 10px;
+      text-align: right;
+      color: #555555;
+      font-size: 0.95em;
+      font-family: Georgia, serif;
+  ">
+      — Charles Franklin Kettering
+  </div>
+
+</div>
+
 <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
 <div style="aspect-ratio:3/2 overflow:hidden;">
   <img id="photo-window"
@@ -78,7 +113,7 @@ setInterval(function () {
   Hi there 👋! I am
   <b>
     Agrya
-      <span style="font-size:0.95em;"> (অগ্র্য)</span>,
+      <span style="font-size:0.95em;"> (অগ্র্য)</span>
     <a href="#"
    onclick="document.getElementById('name-audio').play(); return false;"
    style="text-decoration:none;">

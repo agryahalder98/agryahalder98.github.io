@@ -201,7 +201,7 @@ setInterval(function () {
 <!-- I received a Master degree in Computer Science from [Banaras Hindu University](https://www.bhu.ac.in/) in 2020 and Bachelor degree with Honours from [University of Calcutta](https://www.caluniv.ac.in/) in 2018. During 2021-22, I also worked as a Data Science Intern at [Sciffer Analytics](https://www.sciffer.com/). -->
 
 
-<!-- <div style="width:704px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
+<div style="width:704px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
 
   <img id="photo-window"
        src="/images/photoes/photo1.png"
@@ -243,7 +243,7 @@ setInterval(function () {
       gallery[index].caption;
 
 }, 4000);
-</script> -->
+</script>
 
 
 Research Interests

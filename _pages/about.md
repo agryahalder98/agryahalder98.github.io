@@ -162,25 +162,46 @@ gallery.forEach(item => {
 let index = 0;
 
 setInterval(function () {
-
   const img = document.getElementById("photo-window");
+  const caption = document.getElementById("photo-caption");
 
-  img.style.opacity = 0;
+  const nextIndex = (index + 1) % gallery.length;
+  const nextImage = new Image();
 
-  setTimeout(function () {
+  nextImage.src = gallery[nextIndex].src;
 
-    index = (index + 1) % gallery.length;
+  nextImage.onload = function () {
+    img.style.opacity = 0;
 
-    img.src = gallery[index].src;
-
-    document.getElementById("photo-caption").innerText =
-      gallery[index].caption;
-
-    img.style.opacity = 1;
-
-  }, 400);
+    setTimeout(function () {
+      index = nextIndex;
+      img.src = gallery[index].src;
+      caption.innerText = gallery[index].caption;
+      img.style.opacity = 1;
+    }, 400);
+  };
 
 }, 6000);
+// setInterval(function () {
+
+//   const img = document.getElementById("photo-window");
+
+//   img.style.opacity = 0;
+
+//   setTimeout(function () {
+
+//     index = (index + 1) % gallery.length;
+
+//     img.src = gallery[index].src;
+
+//     document.getElementById("photo-caption").innerText =
+//       gallery[index].caption;
+
+//     img.style.opacity = 1;
+
+//   }, 400);
+
+// }, 6000);
 </script>
 
 <div style="text-align: justify !important;">

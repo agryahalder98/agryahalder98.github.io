@@ -47,7 +47,7 @@ redirect_from:
 </div>
 
 <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
-  <div style="aspect-ratio:16/9; overflow:hidden;">
+  <div style="aspect-ratio:16/9; overflow:hidden;">.        
     <img id="photo-window"
          src="/images/photoes/photo1.png"
          alt="Photo gallery"
@@ -75,7 +75,7 @@ const gallery = [
     caption: "Black Buck of IITM Campus."
   },
   {
-    src: "/images/photoes/photo4.png",
+    src: "/images/photoes/photo4.png", 
     caption: "Spotted Deer."
   },
   {

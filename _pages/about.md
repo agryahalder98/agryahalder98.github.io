@@ -86,11 +86,11 @@ const gallery = [
 
 let index = 0;
 
-// preload images
-gallery.forEach(item => {
-  const preload = new Image();
-  preload.src = item.src;
-});
+// // preload images
+// gallery.forEach(item => {
+//   const preload = new Image();
+//   preload.src = item.src;
+// });
 
 setInterval(function () {
   const img = document.getElementById("photo-window");
@@ -107,7 +107,7 @@ setInterval(function () {
     img.style.opacity = 1;
   }, 400);
 
-}, 6000);
+}, 5000);
 </script>
 
 <!-- <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
@@ -167,7 +167,7 @@ setInterval(function () {
 
   }, 400);
 
-}, 6000);
+}, 5000);
 </script> -->
 
 <div style="text-align: justify !important;">

@@ -6,6 +6,7 @@ redirect_from:
   - /updates.html
 ---
 <ul style="margin-top:-3px" class="updates">
+	<li><span class="updates-month"><b>JUN '26</b></span> <span class="updates-content">One Paper "RSTG: Robust Generation of High Quality Spatial Transcriptomics Data using Beta Divergence Based AutoEncoder" accepted at <b>IEEE Journal of Biomedical and Health Informatics</b>!</span></li>
 	<li><span class="updates-month"><b>JUL '25</b></span> <span class="updates-content">Started Doctoral Study at <b>IIT Madras</b> under the IITM-DRA JDP!</span></li>
 	<li><span class="updates-month"><b>JUL '25</b></span> <span class="updates-content">Completed my Research Personnal Position at <b>ISI Kolkata</b>!</span></li>
 	<li><span class="updates-month"><b>MAR '24</b></span> <span class="updates-content">Started Research Personnel Position at <b>ISI Kolkata</b>!</span></li>

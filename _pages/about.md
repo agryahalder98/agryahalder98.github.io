@@ -46,7 +46,7 @@ redirect_from:
 
 </div>
 
-<!-- <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
+<div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
 
   <div style="aspect-ratio:16/9; overflow:hidden; display:flex; align-items:center; justify-content:center;">
     <img id="photo-window"
@@ -115,8 +115,8 @@ setInterval(function () {
   };
 
 }, 6000);
-</script> -->
-
+</script>
+<!-- 
 <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
 <div style="aspect-ratio:16/9; overflow:hidden; display:flex; align-items:center;">
   <img id="photo-window"
@@ -174,7 +174,7 @@ setInterval(function () {
   }, 400);
 
 }, 6000);
-</script>
+</script> -->
 
 <div style="text-align: justify !important;">
 <!-- <p style="text-align: justify;"> -->

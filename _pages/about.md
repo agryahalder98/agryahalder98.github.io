@@ -154,34 +154,34 @@ const gallery = [
   }
 ];
 
-// Preload all images
-gallery.forEach(item => {
-  const preloadImg = new Image();
-  preloadImg.src = item.src;
-});
-let index = 0;
+// // Preload all images
+// gallery.forEach(item => {
+//   const preloadImg = new Image();
+//   preloadImg.src = item.src;
+// });
+// let index = 0;
 
-setInterval(function () {
-  const img = document.getElementById("photo-window");
-  const caption = document.getElementById("photo-caption");
+// setInterval(function () {
+//   const img = document.getElementById("photo-window");
+//   const caption = document.getElementById("photo-caption");
 
-  const nextIndex = (index + 1) % gallery.length;
-  const nextImage = new Image();
+//   const nextIndex = (index + 1) % gallery.length;
+//   const nextImage = new Image();
 
-  nextImage.src = gallery[nextIndex].src;
+//   nextImage.src = gallery[nextIndex].src;
 
-  nextImage.onload = function () {
-    img.style.opacity = 0;
+//   nextImage.onload = function () {
+//     img.style.opacity = 0;
 
-    setTimeout(function () {
-      index = nextIndex;
-      img.src = gallery[index].src;
-      caption.innerText = gallery[index].caption;
-      img.style.opacity = 1;
-    }, 400);
-  };
+//     setTimeout(function () {
+//       index = nextIndex;
+//       img.src = gallery[index].src;
+//       caption.innerText = gallery[index].caption;
+//       img.style.opacity = 1;
+//     }, 400);
+//   };
 
-}, 6000);
+// }, 6000);
 // setInterval(function () {
 
 //   const img = document.getElementById("photo-window");

@@ -46,15 +46,86 @@ redirect_from:
 
 </div>
 
+<!-- <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
+
+  <div style="aspect-ratio:16/9; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+    <img id="photo-window"
+         src="/images/photoes/photo1.png"
+         alt="Photo gallery"
+         style="width:100%; height:100%; display:block; opacity:1; object-fit:contain; background:white; transition:opacity 0.8s ease-in-out;">
+  </div>
+
+  <div id="photo-caption"
+       style="padding:5px; text-align:center; font-size:0.9em; color:#666;">
+    A lazy summer afternoon at IIT Madras.
+  </div>
+
+</div>
+
+<script>
+const gallery = [
+  {
+    src: "/images/photoes/photo1.png",
+    caption: "A lazy summer afternoon at IIT Madras."
+  },
+  {
+    src: "/images/photoes/photo2.png",
+    caption: "IITM-Deakin Student Symposium 2026."
+  },
+  {
+    src: "/images/photoes/photo3.png",
+    caption: "Black Buck of IITM Campus."
+  },
+  {
+    src: "/images/photoes/photo4.png",
+    caption: "Spotted Deer."
+  },
+  {
+    src: "/images/photoes/photo5.png",
+    caption: "Remote Mountain Hamlets of North Sikkim."
+  }
+];
+
+// Preload all images
+gallery.forEach(item => {
+  const preloadImg = new Image();
+  preloadImg.src = item.src;
+});
+
+let index = 0;
+
+setInterval(function () {
+  const img = document.getElementById("photo-window");
+  const caption = document.getElementById("photo-caption");
+
+  const nextIndex = (index + 1) % gallery.length;
+  const nextImage = new Image();
+
+  nextImage.src = gallery[nextIndex].src;
+
+  nextImage.onload = function () {
+    img.style.opacity = 0;
+
+    setTimeout(function () {
+      index = nextIndex;
+      img.src = gallery[index].src;
+      caption.innerText = gallery[index].caption;
+      img.style.opacity = 1;
+    }, 400);
+  };
+
+}, 6000);
+</script> -->
+
 <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
-<div style="aspect-ratio:3/2 overflow:hidden;">
+<div style="aspect-ratio:16/9; overflow:hidden; display:flex; align-items:center;">
   <img id="photo-window"
       src="/images/photoes/photo1.png"
       alt="Photo gallery"
       style="width:100%; height:auto; display:block; opacity:1; object-fit:contain; background:white; transition:opacity 0.8s ease-in-out;">
   </div>
   <div id="photo-caption"
-        style="padding:7px; text-align:center; font-size:0.9em; color:#666;">
+        style="padding:3px; text-align:center; font-size:0.9em; color:#666;">
       A lazy afternoon at IITM.
   </div>
 </div>
@@ -83,6 +154,11 @@ const gallery = [
   }
 ];
 
+// Preload all images
+gallery.forEach(item => {
+  const preloadImg = new Image();
+  preloadImg.src = item.src;
+});
 let index = 0;
 
 setInterval(function () {
@@ -104,7 +180,7 @@ setInterval(function () {
 
   }, 400);
 
-}, 4000);
+}, 6000);
 </script>
 
 <div style="text-align: justify !important;">

@@ -154,54 +154,26 @@ const gallery = [
   }
 ];
 
-// // Preload all images
-// gallery.forEach(item => {
-//   const preloadImg = new Image();
-//   preloadImg.src = item.src;
-// });
-// let index = 0;
+setInterval(function () {
 
-// setInterval(function () {
-//   const img = document.getElementById("photo-window");
-//   const caption = document.getElementById("photo-caption");
+  const img = document.getElementById("photo-window");
 
-//   const nextIndex = (index + 1) % gallery.length;
-//   const nextImage = new Image();
+  img.style.opacity = 0;
 
-//   nextImage.src = gallery[nextIndex].src;
+  setTimeout(function () {
 
-//   nextImage.onload = function () {
-//     img.style.opacity = 0;
+    index = (index + 1) % gallery.length;
 
-//     setTimeout(function () {
-//       index = nextIndex;
-//       img.src = gallery[index].src;
-//       caption.innerText = gallery[index].caption;
-//       img.style.opacity = 1;
-//     }, 400);
-//   };
+    img.src = gallery[index].src;
 
-// }, 6000);
-// setInterval(function () {
+    document.getElementById("photo-caption").innerText =
+      gallery[index].caption;
 
-//   const img = document.getElementById("photo-window");
+    img.style.opacity = 1;
 
-//   img.style.opacity = 0;
+  }, 400);
 
-//   setTimeout(function () {
-
-//     index = (index + 1) % gallery.length;
-
-//     img.src = gallery[index].src;
-
-//     document.getElementById("photo-caption").innerText =
-//       gallery[index].caption;
-
-//     img.style.opacity = 1;
-
-//   }, 400);
-
-// }, 6000);
+}, 6000);
 </script>
 
 <div style="text-align: justify !important;">

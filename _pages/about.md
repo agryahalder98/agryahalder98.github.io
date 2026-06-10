@@ -47,19 +47,17 @@ redirect_from:
 </div>
 
 <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
-
-  <div style="aspect-ratio:16/9; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+  <div style="aspect-ratio:16/9; overflow:hidden;">
     <img id="photo-window"
          src="/images/photoes/photo1.png"
          alt="Photo gallery"
-         style="width:100%; height:100%; display:block; opacity:1; object-fit:contain; background:white; transition:opacity 0.8s ease-in-out;">
+         style="width:100%; height:100%; display:block; opacity:1; object-fit:cover; background:white; transition:opacity 0.8s ease-in-out;">
   </div>
 
   <div id="photo-caption"
-       style="padding:5px; text-align:center; font-size:0.9em; color:#666;">
+       style="padding:3px; text-align:center; font-size:0.9em; color:#666;">
     A lazy summer afternoon at IIT Madras.
   </div>
-
 </div>
 
 <script>
@@ -86,38 +84,33 @@ const gallery = [
   }
 ];
 
-// Preload all images
-gallery.forEach(item => {
-  const preloadImg = new Image();
-  preloadImg.src = item.src;
-});
-
 let index = 0;
+
+// preload images
+gallery.forEach(item => {
+  const preload = new Image();
+  preload.src = item.src;
+});
 
 setInterval(function () {
   const img = document.getElementById("photo-window");
   const caption = document.getElementById("photo-caption");
 
-  const nextIndex = (index + 1) % gallery.length;
-  const nextImage = new Image();
+  img.style.opacity = 0;
 
-  nextImage.src = gallery[nextIndex].src;
+  setTimeout(function () {
+    index = (index + 1) % gallery.length;
 
-  nextImage.onload = function () {
-    img.style.opacity = 0;
+    img.src = gallery[index].src;
+    caption.innerText = gallery[index].caption;
 
-    setTimeout(function () {
-      index = nextIndex;
-      img.src = gallery[index].src;
-      caption.innerText = gallery[index].caption;
-      img.style.opacity = 1;
-    }, 400);
-  };
+    img.style.opacity = 1;
+  }, 400);
 
 }, 6000);
 </script>
-<!-- 
-<div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
+
+<!-- <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
 <div style="aspect-ratio:16/9; overflow:hidden; display:flex; align-items:center;">
   <img id="photo-window"
       src="/images/photoes/photo1.png"
@@ -153,6 +146,7 @@ const gallery = [
     caption: "Remote Mountain Hamlets of North Sikkim."
   }
 ];
+let index = 0;
 
 setInterval(function () {
 

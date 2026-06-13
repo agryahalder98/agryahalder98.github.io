@@ -86,48 +86,48 @@ redirect_from:
 
   let index = 0;
 
-  // // preload images
-  // gallery.forEach(item => {
-  //   const preload = new Image();
-  //   preload.src = item.src;
-  // });
+  // preload images
+  gallery.forEach(item => {
+    const preload = new Image();
+    preload.src = item.src;
+  });
 
-  // setInterval(function () {
-  //   const img = document.getElementById("photo-window");
-  //   const caption = document.getElementById("photo-caption");
-
-  //   img.style.opacity = 0;
-
-  //   setTimeout(function () {
-  //     index = (index + 1) % gallery.length;
-
-  //     img.src = gallery[index].src;
-  //     caption.innerText = gallery[index].caption;
-
-  //     img.style.opacity = 1;
-  //   }, 400);
-
-  // }, 5000);
   setInterval(function () {
-
     const img = document.getElementById("photo-window");
+    const caption = document.getElementById("photo-caption");
 
     img.style.opacity = 0;
 
     setTimeout(function () {
-
       index = (index + 1) % gallery.length;
 
       img.src = gallery[index].src;
-
-      document.getElementById("photo-caption").innerText =
-        gallery[index].caption;
+      caption.innerText = gallery[index].caption;
 
       img.style.opacity = 1;
-
     }, 400);
 
   }, 5000);
+  // setInterval(function () {
+
+  //   const img = document.getElementById("photo-window");
+
+  //   img.style.opacity = 0;
+
+  //   setTimeout(function () {
+
+  //     index = (index + 1) % gallery.length;
+
+  //     img.src = gallery[index].src;
+
+  //     document.getElementById("photo-caption").innerText =
+  //       gallery[index].caption;
+
+  //     img.style.opacity = 1;
+
+  //   }, 400);
+
+  // }, 5000);
 </script>
 
 <!-- <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">

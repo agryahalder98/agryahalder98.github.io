@@ -49,7 +49,7 @@ redirect_from:
 <div style="width:850px; max-width:100%; margin:25px auto; border:1px solid #ddd; border-radius:8px; overflow:hidden; background:white;">
   <div style="aspect-ratio:16/9 overflow:hidden;"> 
     <img id="photo-window"
-         src="/images/photoes/photo1.png"
+         src="./images/photoes/photo1.png"
          alt="Photo gallery"
          style="width:100%; height:100%; display:block; opacity:1; object-fit:cover; background:white; transition:opacity 0.8s ease-in-out;">
   </div>
@@ -63,23 +63,23 @@ redirect_from:
 <script>
   const gallery = [
     {
-      src: "/images/photoes/photo1.png",
+      src: "./images/photoes/photo1.png",
       caption: "A lazy summer afternoon at IIT Madras."
     },
     {
-      src: "/images/photoes/photo2.png",
+      src: "./images/photoes/photo2.png",
       caption: "IITM-Deakin Student Symposium 2026."
     },
     {
-      src: "/images/photoes/photo3.png",
+      src: "./images/photoes/photo3.png",
       caption: "Black Buck of IITM Campus."
     },
     {
-      src: "/images/photoes/photo4.png", 
+      src: "./images/photoes/photo4.png", 
       caption: "Spotted Deer."
     },
     {
-      src: "/images/photoes/photo5.png",
+      src: "./images/photoes/photo5.png",
       caption: "Remote Mountain Hamlets of North Sikkim."
     }
   ];
